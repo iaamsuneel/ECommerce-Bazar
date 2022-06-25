@@ -1,0 +1,482 @@
+
+ 
+
+
+.product-head h6 {
+  font-size: 16px;
+  color: #d16e39;
+  margin-top: 20px;
+}
+
+.cart-caption h6 {
+  text-transform: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.complete-purchase {
+  width: 100%;
+  background: #f86202;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+  border: 1px solid #f86202;
+  padding: 0 15px;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.complete-purchase.make-offer {
+  background: #622bc5;
+  border-color: #622bc5;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.edit-prof {
+  background: #eaeaea;
+  padding-top: 50px;
+}
+
+.profile-left-panel .profile-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.prof-nav {
+  background: #fff;
+  width: 20%;
+  margin-right: 2%;
+  padding: 0 20px 15px;
+  border-radius: 11px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 16%);
+}
+
+.left-item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.left-item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-item-list {
+  font-family: "Roboto";
+}
+
+.profile-left-panel .profile-div {
+  font-family: "Roboto";
+}
+
+.profile-div .profile-img {
+  height: 108px;
+  width: 108px;
+  background-size: 100% 100%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, .16);
+  margin-bottom: 6px;
+}
+
+body {
+  line-height: 1.2;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #4c4c4c;
+}
+
+.right-prof-sec {
+  background: #fff;
+  width: 78%;
+  padding: 30px 0;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 6px rgb(0 0 0 / 3%);
+}
+
+.right-prof-sec .container {
+  padding: 0 2%;
+  height: 100%;
+}
+
+.user-detail-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-from .group-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.detail-from input {
+  padding: 5px 15px;
+  width: 100%;
+  background: #e5e5e5;
+}
+
+.group-wrap select:disabled {
+  height: 42px;
+  border: 1px solid #d9d9d9;
+  padding: 5px 15px;
+  width: 100%;
+  background: #e5e5e5;
+  color: #4a4a4a;
+  opacity: 1;
+}
+
+.group-wrap select:disabled {
+  height: 45px;
+  border: 1px solid #d9d9d9;
+  font-size: 16px;
+}
+
+.detail-from .group-wrap .form-input {
+  width: 48%;
+}
+
+.form-input span {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 7px;
+  display: block;
+  text-align: left;
+}
+
+.detail-from button {
+  text-transform: uppercase;
+  margin-left: 0%;
+
+}
+
+.header-sell {
+  min-width: 83px;
+
+}
+
+.header-sell {
+  background-color: #f67900;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px 20px 8px !important;
+  transition: all 0.5s ease 0s;
+  border: 1px solid #f67900;
+  color: #fff;
+  margin-left: 0%
+}
+
+#backBtn {
+  margin-right: 0%;
+}
+
+.address-box.new-address {
+  border: 2px dotted #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.address-wrap h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4c4c4c;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+
+.address-box {
+  width: 270px;
+  padding: 22px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.left-item-list>a,
+.left-item-list>div {
+  text-transform: capitalize;
+  padding: 5px 0;
+  transition: all .3s ease-in-out;
+  margin-bottom: 0;
+}
+
+.edit-prof {
+  background: #eaeaea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.desc-txt-wrap .desc-txt .edit-wrapper input {
+  height: 36px;
+  border: 1px solid #888c8c;
+  border-radius: 5px;
+}
+
+.desc-txt-wrap .desc-txt input {
+  background-color: transparent;
+  height: 45px;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+}
+
+.default-add {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.popup-wrap {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 30;
+  background: rgba(0, 0, 0, .75);
+  overflow-y: auto;
+}
+
+
+.detail-from .flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail-from .edit-profile input {
+  background: #fff;
+}
+
+.form-input i {
+  position: absolute;
+  top: 39px;
+  right: 15px;
+  color: #999999;
+}
+
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.detail-from .group-wrap .form-input {
+  width: 48%;
+}
+
+.detail-from .form-title {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #4a4a4a;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.pop-ups h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.pop-ups {
+  height: 590px;
+  background-color: #0e7eee;
+  text-align: center;
+  padding: 24px 20px;
+  border-radius: 23px;
+  color: #1f1f1f;
+}
+
+.newaddress-popup .pop-ups {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  width: 92%;
+}
+
+.newaddress-popup.popup-wrap #addressForm {
+  height: 523px;
+  overflow: auto;
+}
+.desc-txt-wrap .edit-wrapper label {
+  text-align: left;
+}
+.desc-txt-wrap .desc-txt .edit-wrapper input {
+  height: 36px;
+  border: 1px solid #888c8c;
+  border-radius: 5px;
+}
+.desc-txt-wrap .desc-txt input {
+  background-color: transparent;
+  height: 45px;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+}
+.desc-txt-wrap .edit-wrapper {
+  margin-bottom: 14px;
+}
+.edit-wrapper label {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 7px;
+  font-family: "Roboto";
+  color: #4a4a4a;
+  display: block;
+  font-weight: 500;
+}
+.edit-wrapper select {
+  -webkit-appearance: auto;
+  height: 36px;
+  background: #f0f2f2;
+  border: 1px solid #d1d5d5;
+  border-radius: 7px;
+  filter: drop-shadow(0.5px 2.598px 2.5px rgba(0, 0, 0, 0.1));
+}
+select {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  padding: 0 15px;
+  background: transparent;
+  position: relative;
+  -webkit-appearance: none;
+}
+.edit-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.default-add {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+.error {
+  color: red;
+  font-size: medium;
+  font-weight: 600;
+  text-align: left;
+}
+.address-box.new-address {
+  border: 2px dotted #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.default-address span {
+  line-height: 1.4;
+}
+.address-box span {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.address-wrap span {
+  font-size: 17px;
+  color: #4c4c4c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 17px;
+}
+.address-box.get_default .tick-mark i {
+  display: block;
+}
+.address-box.get_default .triangle-topright {
+  display: block;
+}
+.address-wrap .triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 46px solid #f67900;
+  border-left: 46px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.tick-mark i {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 12px;
+  color: #fff;
+  display: none;
+}
+.fa, .fas {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+.address-buttons a:hover {
+  color: #f47900;
+}
+.address-box.get_default {
+  border: 1px solid #f67900;
+  background: rgba(246, 121, 0, 0.03);
+}
+.address-box span {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.address-box h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4c4c4c;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.address-buttons {
+  display: flex;
+}
+.btn12{
+  font-size: small;
+}
+address-buttons a:hover {
+  color: #f47900;
+}
+.btnHover:hover{
+color: red
+
+}
